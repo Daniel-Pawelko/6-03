@@ -10,7 +10,7 @@ function checkMovie () {
     output.innerHTML = 'Available movies depending on your age : PG 13 and G rated'
   } else if (isNaN(age) || age < 0) {
     console.log('Please input valid positive intiger')
-    output.innerHTML = 'Please input valid intiger'
+    output.innerHTML = 'Please input positive valid integer'
   } else {
     console.log('G rated')
     output.innerHTML = 'Available movies depending on your age : G rated'
